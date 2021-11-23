@@ -1,0 +1,41 @@
+* {background-color: rgb(240, 239, 239);
+}
+#calendar{
+// max-width: 80%;
+background-color: rgb(240, 239, 239);
+color: rgb(104, 104, 104);
+}
+.fixed-open {
+display: block;
+}
+.column {
+float: left;
+padding: 10px;
+height: 900px; /* Should be removed. Only for demonstration */
+}
+.left {
+width: 20%;
+}
+.right {
+width: 80%;
+}
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+* {
+box-sizing: border-box;
+}
+.mat-calendar{
+color: rgb(104, 104, 104);
+background-color: #fff;
+}
+
+.week, .day {
+    width:100px;
+    margin-bottom: 10px;
+    background: blue;
+    color: white
+  }
